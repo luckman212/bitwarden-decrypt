@@ -10,5 +10,5 @@ def load_json(filename: str) -> Any:
     return data_json
 
 def load_user_data() -> Any:
-    filename = expanduser('~/.config/Bitwarden CLI/data.json')
+    filename = expanduser('~/Library/Application Support/Bitwarden CLI/data.json')
     return load_json(filename)
